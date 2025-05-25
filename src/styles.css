@@ -1,0 +1,12 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+section {
+  margin-bottom: 10px;
+}
+
+#shal {
+  background-color: blue;
+  color: white;
+}
