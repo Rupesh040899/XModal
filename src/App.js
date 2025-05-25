@@ -52,10 +52,11 @@ export default function App() {
     <div className="App">
       <div className="modal">
         <h1>User Details Modal</h1>
+
+        <Button onClick={handleOpen} id="shal">
+          Open Form
+        </Button>
         <div className="modal-content">
-          <Button onClick={handleOpen} id="shal">
-            Open Form
-          </Button>
           <Modal
             open={open}
             onClose={handleClose}
