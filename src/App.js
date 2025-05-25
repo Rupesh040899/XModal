@@ -110,7 +110,7 @@ export default function App() {
                     value={dob}
                   />
                 </section>
-                <button className="submit-button">Submit</button>
+                <button className="submit-button" type="submit">Submit</button>
               </form>
             </Box>
           </Modal>
